@@ -18,3 +18,11 @@ let index = 2;
 
 let fruit = myFruits.at(index);
 console.log("Fruit available at index ("+index+") is "+fruit);
+
+// The default index (0) will return first element of the array
+fruit = myFruits.at();
+console.log("Fruit available at first index (default)  is "+fruit);
+
+// The index -1 will return last element of the array
+fruit = myFruits.at(-1);
+console.log("Fruit available at last index (-1) is "+fruit);
