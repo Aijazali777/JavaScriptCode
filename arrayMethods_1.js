@@ -1,4 +1,4 @@
-// ###### forEach() Method #########
+// ###### 1) forEach() Method #########
 
 // forEach() method calls a function for each element in an array.
 // forEach() method is not executed for empty elements.
@@ -13,7 +13,7 @@ function sumOfArray(item)
     sumOfArr = sumOfArr +item;
 }
 
-// ###### at() Method #########
+// ###### 2) at() Method #########
 
 // The at() method returns an indexed element from an array.
 
@@ -32,7 +32,7 @@ fruit = myFruits.at(-1);
 console.log("Fruit available at last index (-1) is "+fruit);
 
 
-// ###### concat() Method #########
+// ###### 3) concat() Method #########
 
 // The concat() method will concatenates (joins) two or more arrays
 // The concat() method will return a new array, containing the joined arrays
@@ -41,5 +41,14 @@ console.log("Fruit available at last index (-1) is "+fruit);
 const fruits = ['Apple', 'Banana', 'Orange'];
 const vegetables = ['Potato', 'Tomato'];
 const items = fruits.concat(vegetables);
-console.log(items);
+console.log("Concatination of two arrays = "+items);
 
+
+// ###### 4) constructor Property #########
+
+// The constructor property returns the function that created the Array prototype.
+// For JavaScript Array the constructor property returns:
+// function Array() { [native code] }
+
+let text = fruits.constructor;
+console.log("Constructor of the array "+text);
