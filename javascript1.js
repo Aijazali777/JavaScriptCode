@@ -1,4 +1,4 @@
-var valueOne = 1;
+/* var valueOne = 1;
 var valueTwo = 2;
 var tempValue;
 
@@ -21,4 +21,7 @@ function swapWithoutUsingTempVariable()
     valueOne = valueOne - valueTwo;
 
     console.log("valueOne = "+valueOne+"\nvalueTwo = "+valueTwo);
-}
+} */
+
+var valueOne = 1;
+var valueTwo = 2;
